@@ -8,10 +8,6 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/' do
-    "Hello World"
-  end
-
-  get '/index' do
     erb(:index)
   end
 
